@@ -1,32 +1,30 @@
 {
-  "name": "wetube",
+  "name": "nomad-youtoude-clone",
   "version": "1.0.0",
   "description": "The best way to watch videos.",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/init.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nomadcoders/wetube-reloaded.git"
+    "url": "git+https://github.com/jjucc99/nomad-youtoude-clone.git"
   },
-  "scripts": {
-    "dev": "nodemon --exec npm babel-node index.js"
-  },
-  "author": "Nicolas Serrano <nico@nomadcoders.co>",
+  "author": "J",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nomadcoders/wetube-reloaded/issues"
+    "url": "https://github.com/jjucc99/nomad-youtoude-clone/issues"
   },
-  "homepage": "https://github.com/nomadcoders/wetube-reloaded#readme",
+  "homepage": "https://github.com/jjucc99/nomad-youtoude-clone#readme",
   "dependencies": {
-    "bcrypt": "^5.0.1",
     "express": "^4.17.1",
-    "express-session": "^1.17.1",
-    "mongoose": "^5.12.3",
+    "mongoose": "^6.0.10",
     "morgan": "^1.10.0",
     "pug": "^3.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.7",
-    "@babel/node": "^7.16.8",
-    "@babel/preset-env": "^7.16.8",
-    "nodemon": "^2.0.15"
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "nodemon": "^2.0.13"
   }
 }
